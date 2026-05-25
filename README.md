@@ -96,24 +96,8 @@ Open `http://localhost:8501` — you'll see the chat interface with your ingeste
 
 ## Project structure
 
-finrag/
-├── ingestion/
-│   ├── sec_fetcher.py    # SEC EDGAR API client (iXBRL-aware)
-│   ├── parser.py         # HTML/iXBRL → clean text
-│   └── chunker.py        # Token-aware chunking + section tagging
-├── vectorstore/
-│   └── chroma_store.py   # Embed, store, and query with metadata filters
-├── agent/
-│   ├── retriever.py      # Smart retrieval — extracts ticker/year/section from query
-│   ├── prompt.py         # Finance-tuned system prompt
-│   └── chain.py          # RAG chain (Groq Llama 3.3)
-├── app/
-│   └── streamlit_app.py  # Dark-theme chat UI
-├── ingest.py             # CLI ingestion script
-├── .env                  # API keys (not committed)
-└── requirements.txt
+<img width="650" height="385" alt="Screenshot 2026-05-25 at 5 02 01 PM" src="https://github.com/user-attachments/assets/6d8fa512-1800-4093-94c8-c7df16d101ef" />
 
----
 
 ## Key design decisions
 
