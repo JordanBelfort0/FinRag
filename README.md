@@ -112,10 +112,15 @@ Open `http://localhost:8501` — you'll see the chat interface with your ingeste
 ## Example queries
 
 "What are Apple's main risk factors in 2025?"
+
 "Compare Microsoft and Google revenue in 2024"
+
 "How is Microsoft monetising AI?"
+
 "What did Apple say about the App Store legal challenges?"
+
 "Google's capital expenditure plans?"
+
 "Which company mentioned supply chain risks most prominently?"
 
 ---
